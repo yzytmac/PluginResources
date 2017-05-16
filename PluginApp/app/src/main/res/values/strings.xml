@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PluginApp</string>
+    <string name="plgin_name">我是插件中的文字2</string>
+</resources>
