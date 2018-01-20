@@ -1,4 +1,6 @@
 **插件化开发——加载插件中的资源文件**  
+- 如果觉得有用，不吝啬在右上角给我一个Star。谢谢！！  
+![](https://raw.githubusercontent.com/yzytmac/yzytmac.github.io/master/images/star.png)  
 通常会有很多资源文件是动态变化的，做成一个插件的形式供应用加载，而插件的形式由很多种如dex、zip、jar、apk。其中最有含量的就是apk形式的插件，并且是非安装形式的。  
 项目中有MainApp和PluginApp两个项目，PluginApp就是插件，里面有一个string资源叫plugin_name。我们要在MainApp中下载PluginApp并拿到其中的string文件并显示在textview中。  
   
